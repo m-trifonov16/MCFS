@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="MicrosoftPCF" constructor="DocumentsViewControl" version="1.4.1" display-name-key="DocumentsViewControl" description-key="DocumentsViewControl description" control-type="virtual">
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <type-group name="Entity">
+      <type>SingleLine.Text</type>
+      <type>Lookup.Simple</type>
+    </type-group>
+    <property name="dummy" display-name-key="Dummy_Key" description-key="Dummy_Desc_Key" of-type-group="Entity" usage="bound" required="true" />
+    <property name="contactId" display-name-key="CONTACT_ID" description-key="CONTACT_ID_DESC" of-type-group="Entity" usage="input" required="true" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/error.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/error48.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/create.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/error100.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/emptyFile.png" />
+      <platform-library name="React" version="16.8.6" />
+      <platform-library name="Fluent" version="8.29.0" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+      <uses-feature name="Utility" required="true" />
+    </feature-usage>
+  </control>
+</manifest>

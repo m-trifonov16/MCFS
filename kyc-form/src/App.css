@@ -1,0 +1,76 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  width: 100%;
+  position: relative;
+}
+
+.page-title {
+  margin-bottom: 10px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  position: relative;
+  padding-top: 50px;
+}
+
+.form-navigation {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 300px;
+  height: 710px;
+}
+
+.ant-steps-vertical {
+  height: 100%;
+}
+
+.layout__content {
+  background-color: #fff;
+  padding: 10px 70px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 900px;
+  min-height: 710px;
+}
+
+.layout__content-wrapper {
+  margin-top: 20px;
+}
+
+.ant-form-item {
+  margin-bottom: 16px;
+}
+
+.kyc-form__buttons {
+  text-align: right;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+.datePicker {
+  width: 100%;
+}
+
+.household-data-form {
+  padding: 0px 50px;
+}
+
+.documents-section-container {
+  margin-bottom: 24px;
+  border: 1px solid #0000000F;
+  padding: 20px;
+  border-radius: 6px;
+}

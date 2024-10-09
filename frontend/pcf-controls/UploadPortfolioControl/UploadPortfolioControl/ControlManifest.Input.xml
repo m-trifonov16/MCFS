@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="MicrosoftPCF" constructor="UploadPortfolioControl" version="1.0.0" display-name-key="UploadPortfolioControl" description-key="UploadPortfolioControl description" control-type="standard">
+    <property name="contactId" display-name-key="CONTACT" description-key="CONTACT_DESC" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="dummy" display-name-key="PLACE_HOLDER_BOUND" description-key="PLACE_HOLDER_NAME_DESCRIPTION" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+      <uses-feature name="Utility" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
