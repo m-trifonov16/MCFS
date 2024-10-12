@@ -5,7 +5,7 @@ import { CheckCircleOutlined } from '@ant-design/icons';
 const Success: React.FC = () => {
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '600px' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '500px' }}>
       <Result
         icon={<CheckCircleOutlined style={{ fontSize: '64px', color: '#52c41a' }} />}
         title="Success! Your submission has been received."

@@ -16,16 +16,18 @@ const Notes: React.FC<NotesProps> = ({ formData, onFormChange, onContinue, onGoB
     onFormChange('notes', e.target.value);
   };
 
+  console.log(formData.notes);
+
   return (
-    <Form layout="vertical" onFinish={onContinue}>
+    <Form layout="vertical" initialValues={formData} onFinish={onContinue}>
       <h2 className="form-section-title">Notes</h2>
       
       <Form.Item name="notes">
         <TextArea
           placeholder="Type your notes here"
-          value={formData.notes}
           onChange={handleNotesChange}
           rows={5}
+          maxLength={1000}
         />
       </Form.Item>
 
